@@ -1,0 +1,74 @@
+2014/11/26 17:40:10 [error] [exception.CException] exception 'CException' with message 'Alias "ext.smtpmail.PHPMailer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/axissettlement/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/axissettlement/framework/YiiBase.php(196): YiiBase::import('ext.smtpmail.PH...', true)
+#1 /var/www/axissettlement/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/axissettlement/framework/base/CModule.php(103): CModule->getComponent('Smtpmail')
+#3 /var/www/axissettlement/app/protected/commands/sendMailsCommand.php(15): CModule->__get('Smtpmail')
+#4 /var/www/axissettlement/framework/console/CConsoleCommandRunner.php(71): sendMailsCommand->run(Array)
+#5 /var/www/axissettlement/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /var/www/axissettlement/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#7 /var/www/axissettlement/framework/yiic.php(33): CApplication->run()
+#8 /var/www/axissettlement/app/protected/yiic.php(7): require_once('/var/www/axisse...')
+#9 /var/www/axissettlement/app/protected/yiic(4): require_once('/var/www/axisse...')
+#10 {main}
+---
+2015/10/30 08:01:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scarp.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in C:\wamp\www\wrappdadmin\app\protected\controllers\UsersController.php (136)
+in C:\wamp\www\wrappdadmin\app\index.php (19)
+2015/10/30 14:40:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DEC LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `admin_notification` `t` ORDER BY "order_id" DEC LIMIT 10.
+in C:\wamp\www\wrappdadmin\app\protected\extensions\bootstrap\widgets\TbGridView.php (49)
+in C:\wamp\www\wrappdadmin\app\protected\views\adminNotification\admin.php (66)
+in C:\wamp\www\wrappdadmin\app\protected\controllers\AdminNotificationController.php (143)
+2015/10/30 14:42:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DEC LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `admin_notification` `t` ORDER BY date_added DEC LIMIT 10.
+in C:\wamp\www\wrappdadmin\app\protected\extensions\bootstrap\widgets\TbGridView.php (49)
+in C:\wamp\www\wrappdadmin\app\protected\views\adminNotification\admin.php (66)
+in C:\wamp\www\wrappdadmin\app\protected\controllers\AdminNotificationController.php (143)
+2015/11/02 13:09:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scarp.users' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `users`.
+in C:\wamp\www\wrappdadmin\app\protected\views\users\index.php (20)
+in C:\wamp\www\wrappdadmin\app\protected\controllers\UsersController.php (128)
+in C:\wamp\www\wrappdadmin\app\index.php (19)
+2015/11/22 20:29:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'scarp.request_analtics' n'existe pas. The SQL statement executed was: SHOW FULL COLUMNS FROM `request_analtics`.
+in C:\wamp\www\wrappdadmin\app\index.php (19)
+2015/11/23 14:26:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'scarp.storeprocedureparmeter' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `StoreProcedureParmeter`.
+in C:\wamp\www\wrappdadmin\app\index.php (19)
+2016/02/26 14:51:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Gkidz-Printed-Boys-Round-Neck-T-Shirt' for key 'uniquenames'. The SQL statement executed was: INSERT INTO `product` (`wrappdcount`, `image_link`, `link`, `name`, `price`, `desc`, `status`, `uniquename`, `merchant_name`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\wamp\www\admin\protected\controllers\ProductController.php (143)
+in C:\wamp\www\admin\index.php (18)
+2016/02/26 15:04:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Lavie-Shoulder-Bag' for key 'uniquenames'. The SQL statement executed was: INSERT INTO `product` (`wrappdcount`, `image_link`, `link`, `name`, `price`, `desc`, `status`, `uniquename`, `merchant_name`, `product_source`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9).
+in C:\wamp\www\admin\protected\controllers\ProductController.php (141)
+in C:\wamp\www\admin\index.php (18)
+2020/05/21 16:33:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sonyespn.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+in C:\wamp64\www\sonyadmin\protected\components\UserIdentity.php (22)
+in C:\wamp64\www\sonyadmin\protected\models\LoginForm.php (52)
+in C:\wamp64\www\sonyadmin\protected\controllers\SiteController.php (95)
+2021/05/23 01:25:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+in C:\wamp64\www\sonyadmin\protected\components\UserIdentity.php (22)
+in C:\wamp64\www\sonyadmin\protected\models\LoginForm.php (52)
+in C:\wamp64\www\sonyadmin\protected\controllers\SiteController.php (95)
+2021/05/23 04:52:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.footy' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `footy`.
+in C:\wamp64\www\sonyadmin\protected\controllers\FootyController.php (136)
+in C:\wamp64\www\sonyadmin\index.php (18)
+2021/05/23 04:53:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.footy' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `footy`.
+in C:\wamp64\www\sonyadmin\protected\controllers\FootyController.php (136)
+in C:\wamp64\www\sonyadmin\index.php (18)
+2021/05/24 16:21:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.footy' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `footy`.
+in C:\wamp64\www\sonyadmin\protected\controllers\FootyController.php (136)
+in C:\wamp64\www\sonyadmin\index.php (18)
+2021/05/24 16:21:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.footy' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `footy`.
+in C:\wamp64\www\sonyadmin\protected\controllers\FootyController.php (136)
+in C:\wamp64\www\sonyadmin\index.php (18)
+2021/05/25 02:52:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.footy' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `footy`.
+in C:\wamp64\www\sonyadmin\protected\controllers\FootyController.php (136)
+in C:\wamp64\www\sonyadmin\index.php (18)
+2021/05/26 02:44:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+in C:\wamp64\www\sonyadmin\protected\components\UserIdentity.php (22)
+in C:\wamp64\www\sonyadmin\protected\models\LoginForm.php (52)
+in C:\wamp64\www\sonyadmin\protected\controllers\SiteController.php (95)
+2021/05/26 02:44:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+in C:\wamp64\www\sonyadmin\protected\components\UserIdentity.php (22)
+in C:\wamp64\www\sonyadmin\protected\models\LoginForm.php (52)
+in C:\wamp64\www\sonyadmin\protected\controllers\SiteController.php (95)
+2021/05/26 02:44:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tradingview_alert.admin' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `admin`.
+in C:\wamp64\www\sonyadmin\protected\components\UserIdentity.php (22)
+in C:\wamp64\www\sonyadmin\protected\models\LoginForm.php (52)
+in C:\wamp64\www\sonyadmin\protected\controllers\SiteController.php (95)

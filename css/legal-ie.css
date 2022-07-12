@@ -1,0 +1,47 @@
+.row-fluid [class*='span']{
+	min-height:0px !important
+}
+/*select{min-height:20px!imporant;height:20px!imporant;}*/
+input[type=text]{
+	min-height:20px !important;
+		height:20px !important;
+
+}
+input[type=password]{
+	min-height:20px;
+	height:20px !important;
+}
+.padd-left-ddl{
+	padding-left: 4% !important;
+}
+.row-padd35{
+	padding: 0 35px;
+}
+select{
+	min-height: 20px !important;
+	width: 100%;
+	max-width: 270px;
+}
+.ddl-margin{
+	max-width: 175px;
+}
+.nav-tabs > li > a, .nav-pills > li > a {
+	padding-right: 6px;
+	padding-left: 10px;
+}
+/*
+.chk-align{
+	margin-left: 34% !important;
+}
+*/
+
+/*align radio btn*/
+
+.padd16{
+	padding-left:0px
+}
+.padd15{
+	padding-left: 0px;
+}
+
+

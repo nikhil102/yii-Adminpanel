@@ -1,0 +1,328 @@
+.summary{
+ margin-left:33px;
+}
+.pagination{
+	text-align:right;
+}
+
+.help-block{
+	float: right;
+	padding: 15px 60px;
+	font-style: italic !important;
+	font-size: 12px;
+	text-align: right;
+}
+
+/*.ui-dialog ,.ui-widget , .ui-widget-content , .ui-corner-all , .ui-draggable{
+z-index: 5000 !important;
+}*/
+
+.ui-widget , .ui-widget-content , .ui-corner-all , .ui-draggable{
+
+}
+
+.acc-id-modal{
+/*	padding-top: 64px;position: absolute;
+*/
+/*padding-top: 56px;
+*/
+padding-top: 15px;
+display: block;
+}
+
+.acc-id-modal-large{
+/*	padding-top: 5px;position: absolute;
+*/
+/*padding-top: 25px;
+display: block;
+*/
+position: absolute;
+margin-top: 25px;
+
+}
+
+
+.ico-margin{margin-right: 20px;}
+
+#MasterAccountSubproduct_settlement_eligible{
+position: absolute;
+margin-top: 9px;
+}
+.chk-lbl{
+float: left;
+width: 193px;
+padding-top: 5px;
+text-align: right;
+padding-left: 3px;
+font-weight:bold;
+}
+
+.row-margin{
+	margin-bottom: -17px;
+}
+.caret {
+border-top: 4px solid #fff;
+}
+.grid-view table.items th a.desc .caret{
+	border-bottom: 4px solid #fff;
+}
+
+
+form{
+	font-size: 14px;
+}
+
+
+/*Tabs style*/
+/*.side-nav-tabs.nav-tabs > li {
+float: none;
+width: 150px;
+font-size: 13px;
+}
+*/
+
+
+.grid-view .pager  { text-align:right; padding-right:30px;}
+.pager .selected a {
+background-color: #ECECEC !important;
+color: #a40032;
+border-radius: 0px !important;
+}
+
+.pager li > a, .pager li > span {
+border-radius: 0px !important;
+}
+
+
+
+.pager .next > a, .pager .next > span {
+ float: none; 
+}
+
+.pager .previous > a, .pager .previous > span {
+float: none;
+}
+.last{display: none !important;}
+.first{display: none !important;}
+
+ul.yiiPager .page a {
+	font-size: 14px;
+	padding: 4px 12px;
+	line-height: 20px;
+	text-decoration: none;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	
+}
+ul.yiiPager a:link, ul.yiiPager a:visited{
+	font-size: 14px;
+	padding: 4px 12px;
+	line-height: 20px;
+	text-decoration: none;
+	border: 1px solid #dddddd;
+	 color: #444;
+
+}
+ul.yiiPager .selected a {
+	color: #A40032;
+	font-weight: normal;
+}
+.grid-view .pager {
+	margin: 40px 30px 0 0;
+}
+
+ul.yiiPager a:hover {
+border: solid 1px #dddddd;
+}
+ul.yiiPager a:link, ul.yiiPager a:visited {
+border: 1px solid #dddddd !important;
+color: #444 !important;
+padding: 4px 12px !important;
+text-decoration: none;
+}
+
+ul.yiiPager .selected a {
+	background: #ECECEC  !important;
+	color: #a40032 !important;
+	font-weight: normal !important;
+}
+
+.pager {
+text-align: right !important;
+}
+
+
+
+
+
+
+/* for receipt view only */	
+.receipt-view th{width: 35%;}
+.receipt-view {width: 95%;}
+
+
+.receipt-view th  {
+	border-top: none !important;
+	border-bottom: none !important; 
+	padding: 10px 5px;
+}
+
+.receipt-view td  {
+	border-top: none;
+	border-bottom: none; 
+	padding: 10px 5px;
+}
+
+/*stacked  Tab-border right none */
+.nav-tabs.nav-stacked > li > a {
+border-right: 0;
+}
+
+
+.redbutton   {
+	background: url("../images/back-btn.png") no-repeat right top;
+	width:36px !important; height:36px;
+	cursor:pointer; border:none; outline:0;
+	margin: 5px 0;
+} 
+
+h1 span a.btn1  ,h1 span a.btn1:focus,h1 span a.btn1 :active{
+background: url("../images/icon-iamge.png") no-repeat right top !important;
+/*background: #fff !important;*/
+   transition:none !important;
+        background-position: 5px 0px !important ;
+
+}
+h1 span a.btn:active { /*width:auto  !important; height:auto!important;*/}
+
+.btn1 .icon-remove-circle ,.btn1 .icon-info-sign,.btn1 .icon-bookmark,.btn1 .icon-thumbs-down,.btn1 .icon-pencil,.btn1 .icon-thumbs-up,.btn1 .icon-share-alt{ margin-top:0px;vertical-align: bottom;}
+
+h1 a.btn:active  {
+	/*	background: url("../images/back-btn.png") no-repeat right top;
+    	 width:36px !important; height:36px; 
+        transition:none !important;
+        background-position: 5px 0px !important ;*/
+}
+    h1 a.btn:hover , h1 a.btn:focus ,h1 a.btn:active {
+    	background: url("../images/back-btn.png") no-repeat right top;
+        background-color: transparent;
+        background-position: 5px 0px !important ;
+        transition:none !important;
+    }
+    h1 a.btn{box-shadow:none !important;
+
+        background-position: 5px 0px !important ;
+    }
+
+/*For scroll up */
+
+.scrollup {
+width: 40px;
+height: 40px;
+text-indent: -9999px;
+opacity: 0.3;
+position: fixed;
+bottom: 75px;
+right: 20px;
+display: none;
+background: url(../images/top.png) no-repeat;
+z-index: 999;
+}
+
+
+hr {
+border-top: 1px solid #ccc;
+margin:5px 0 5px 0 !important;
+width: 98%;
+}
+.icon-arrow-right   {color:#fff !important;}
+input[type="radio"], input[type="checkbox"]  { margin-top:-2px; margin-right:4px;}
+.badge1[data-badge]:after    {background:none !important; border:none; right:8px !important; box-shadow: none !important; color:#000 !important; font-size:14px !important;}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus      {border:1px solid #fff !important;}
+.table          { font-size:13px;}
+.form-horizontal .control-label        { font-family:arial;}
+
+
+/*align radio btn*/
+
+.chk-align{
+	position: absolute;
+	right: 0;
+	margin-top: 10px !important;
+}
+
+
+.padd16{
+	padding-left:16px
+}
+.padd15{
+	padding-left: 15px;
+}
+
+.txt-width{
+	max-width: 170px !important;
+}
+.txt-wrapper{
+	position: relative;
+}
+
+
+.btn1 ,.btn1:hover ,.btn1:focus ,.btn1:visited ,.btn1:active {
+	background:#fff;
+	width:33px !important; height:25px;
+	cursor:pointer; border:none; outline:0;
+	margin: 5px 0;
+	border-radius:100%;
+	padding:0px;
+	font-size:0px;
+/*	background: url("../images/icon-iamge.png") no-repeat right top;
+*/
+}
+
+.brandlogo
+{
+    color: green;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+.navbar .brand
+{
+   display: block;
+    float: left;
+    padding: 14px 47px 10px;
+    margin-left: -20px;
+    font-size: 23px !important;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 0 1px 0 #ffffff;
+    background-color: white;
+    height: 50px;
+    color: #000 !important;
+}
+
+.headingspan{
+        padding: 21px 47px 10px;
+    font-size: 16px !important;
+    font-weight: 600;
+    
+}
+
+.headingholder
+{
+    
+    
+}
+    
+
+/*
+.navbar-fixed-top, .navbar-fixed-bottom{
+	position: fixed;
+	background: url(../images/nav-bg.jpg) repeat-x center top;
+}
+
+.page-wrapper{
+	margin-top: 5%;
+}*/

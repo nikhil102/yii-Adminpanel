@@ -1,0 +1,61 @@
+[20-Apr-2016 18:20:38 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 431
+[20-Apr-2016 18:20:41 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 431
+[20-Apr-2016 18:20:45 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 431
+[20-Apr-2016 18:20:54 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 431
+[20-Apr-2016 18:21:46 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ',' in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 431
+[20-Apr-2016 20:27:48 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/wrappd/public_html/admin/protected/views/product/mange_create_form.php on line 5
+[20-Apr-2016 20:28:47 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/wrappd/public_html/admin/protected/views/product/mange_create_form.php on line 6
+[20-Apr-2016 20:28:49 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home/wrappd/public_html/admin/protected/views/product/mange_create_form.php on line 6
+[20-Apr-2016 21:01:41 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '{' in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 21:01:41 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '{' in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 21:01:41 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '{' in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 21:01:41 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '{' in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 21:02:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 21:02:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 21:02:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 21:02:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/wrappd/public_html/admin/framework/base/CComponent.php(612) : eval()'d code on line 1
+[20-Apr-2016 22:07:26 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/wrappd/public_html/admin/protected/controllers/HomebannerController.php on line 154
+[21-Apr-2016 15:58:02 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$sub_categoryarr' (T_VARIABLE) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 504
+[21-Apr-2016 15:58:53 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$sub_categoryarr' (T_VARIABLE) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 504
+[21-Apr-2016 15:58:55 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$sub_categoryarr' (T_VARIABLE) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 504
+[21-Apr-2016 15:59:41 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '}' in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 508
+[21-Apr-2016 16:26:55 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 507
+[21-Apr-2016 16:27:24 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 507
+[21-Apr-2016 16:27:28 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 507
+[21-Apr-2016 21:16:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'Yii' (T_STRING) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 296
+[21-Apr-2016 21:18:26 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'Yii' (T_STRING) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 296
+[22-Apr-2016 01:22:07 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 341
+[22-Apr-2016 02:39:26 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 330
+[22-Apr-2016 02:40:27 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 330
+[22-Apr-2016 02:40:35 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 330
+[22-Apr-2016 02:40:40 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 330
+[22-Apr-2016 02:40:49 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 330
+[22-Apr-2016 02:41:00 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 330
+[22-Apr-2016 02:41:11 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 327
+[22-Apr-2016 02:41:16 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 327
+[22-Apr-2016 02:41:25 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 327
+[22-Apr-2016 02:41:58 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/ProductController.php on line 327
+[26-Apr-2016 17:02:43 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'Yii' (T_STRING) in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 166
+[26-Apr-2016 18:05:07 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 273
+[26-Apr-2016 19:17:26 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 208
+[26-Apr-2016 19:19:00 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 208
+[26-Apr-2016 19:19:47 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 209
+[26-Apr-2016 19:21:52 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 211
+[26-Apr-2016 19:26:18 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 211
+[26-Apr-2016 19:29:16 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 211
+[26-Apr-2016 19:29:25 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 211
+[26-Apr-2016 19:29:27 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 211
+[26-Apr-2016 19:29:28 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 211
+[26-Apr-2016 19:30:51 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 215
+[26-Apr-2016 19:31:02 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 215
+[26-Apr-2016 19:33:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 215
+[26-Apr-2016 19:33:30 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 215
+[26-Apr-2016 20:05:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 216
+[26-Apr-2016 20:06:11 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 216
+[26-Apr-2016 20:06:14 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 216
+[26-Apr-2016 20:08:53 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /home/wrappd/public_html/admin/protected/controllers/TempproductController.php on line 216
+[05-May-2016 01:06:44 Asia/Calcutta] PHP Fatal error:  Call to undefined method User::reportcount() in /home/wrappd/public_html/admin/themes/bootstrap/views/site/index.php on line 85
+[05-May-2016 01:06:47 Asia/Calcutta] PHP Fatal error:  Call to undefined method User::reportcount() in /home/wrappd/public_html/admin/themes/bootstrap/views/site/index.php on line 85
+[05-May-2016 01:06:57 Asia/Calcutta] PHP Fatal error:  Call to undefined method User::reportcount() in /home/wrappd/public_html/admin/themes/bootstrap/views/site/index.php on line 85
+[05-May-2016 01:51:46 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ',' in /home/wrappd/public_html/admin/protected/controllers/RegistryController.php on line 64
+[05-May-2016 02:20:06 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ':', expecting '(' in /home/wrappd/public_html/admin/protected/views/registry/report.php on line 55

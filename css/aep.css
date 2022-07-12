@@ -1,0 +1,167 @@
+body {
+	font-family:helvetica, arial, sans-serif;
+	color: #333;
+	line-height: 1.6;
+}
+
+
+
+
+/**********************Top menu CSS starts  ********************************/
+
+.topHeader .navbar-inner    {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a40032', endColorstr='#a40032', GradientType=0);
+    background: #A40032;
+    padding: 15px 0px;
+}
+
+.topHeader .navbar .brand  {
+    color: #ffffff;
+    text-shadow: 0 1px 0 #a40032;
+}
+
+    
+.topHeader .navbar .nav > li > a {
+    color: #ffffff;
+    text-shadow: 0 1px 0 #a40032;
+    outline: 0px;
+}
+
+.topHeader .navbar .nav > .active > a,
+.topHeader .navbar .nav > .active > a:hover,
+.topHeader .navbar .nav > .active > a:focus {
+    color: #a40032;
+}
+
+.topHeader .brand{padding: 2px 12px}
+
+/**********************Top menu CSS ends  ********************************/
+
+
+
+
+
+
+
+.login-div{padding:28px 20px; width:227px;margin: 10% auto;border: 5px solid #ddd;}
+.logo-margin{margin-bottom:20px}
+.loginholder{ border:no-border !important}
+.dropdown-menu {border-radius:0px;}
+
+
+/*navigation dropdown toogle css*/
+
+.topHeader .navbar .nav li.dropdown.open > .dropdown-toggle,
+.topHeader .navbar .nav li.dropdown.active > .dropdown-toggle,
+.topHeader .navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    color: #fff;
+    text-shadow: none;
+    background-color: #A40032;
+}
+
+.topHeader .dropdown-menu > li > a {
+    color: #a40032;
+	padding-top:8px;
+	padding-bottom:8px;
+	border-top:1px solid #e5e5e5;
+}
+
+.topHeader .dropdown-menu > li > a:hover,
+.topHeader .dropdown-menu > li > a:focus,
+.topHeader .dropdown-submenu:hover > a,
+.topHeader .dropdown-submenu:focus > a {
+    color: #a40032;
+    background-color: #E6A4A4;
+	background-image:none !important;
+    
+}
+
+.topHeader .navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.topHeader .navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.topHeader .navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+.dropdown-menu {margin :0 0 0 0;padding: 0px 0;}
+.dropdown-menu:after {
+    border: none !important;
+    content: "" !important;
+	margin-top:0px !important;
+}
+.table-bordered th, .table-bordered td {
+border-left: 1px solid #dddddd;
+}
+.table th{background-color:#ddd}
+.table th, .table td {
+padding: 8px;
+line-height: 20px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #dddddd;
+}
+
+.page-title{font-weight: 400;}
+.page-title img{margin-top:-5px;}
+
+hr {margin: 10px 0 20px 0px;}
+
+.btn-primary > a {text-decoration:none}
+
+/*Removed 5px  botom margin from table*/
+.grid-view table.items {margin-bottom: 0px !important;}
+
+
+/*.form-horizontal .control-label {padding-top: 5px;}*/
+
+/*Footer border top added */
+
+.footerholder {border-top: 1px solid #A4003F;}
+.user-icon{background: url(../images/user-icon.png) no-repeat left center;padding-left: 5px;}
+
+
+
+/* to align Employee/Create  form... */
+.form-table  tbody  > tr > td {width:200px}
+    a{color:#A4003F;}
+    .btn-primary{
+        background-color: #D41B61;
+        background-image: linear-gradient(to bottom, #DB1F67, #AC0645);
+        background-repeat: repeat-x;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        color: #FFFFFF;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    }
+    a:hover{
+        color:#A4003F;
+    }
+	
+	
+
+
+/*LEGAL AXIS style */
+
+
+
+/*navigation logout css */
+.navbar .nav > li.topNavRightChild{float:right;}
+
+.navbar .nav >  li:last-child { float:right; }
+
+.topHeader .navbar .nav {
+
+width: 84%;
+}
+
+
+
+
+.user-icon{background: url(../images/user-icon.png) no-repeat left center;padding-left: 5px;}
+
+
+.bg-img{background: url(../images/legal_bg.jpg) no-repeat left; height:100%;width:100%;margin-top: -20px;}
+
+.main-wrapper{max-width:900px;background-color:#fff;height: 567px; margin:3% auto; padding: 20px 20px;}
+.header-wrapper{max-width:900px;background-color:#212121;margin:auto;color:#f5f5f5;
+margin-top: 90px;padding: 10px 20px;}
+
+.top-header{font-weight:bold;font-size: 16px;}
